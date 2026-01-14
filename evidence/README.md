@@ -188,6 +188,7 @@ Shows the backend application being accessed through Kubernetes Ingress after up
 
 ```bash
 curl -i http://muchtodo.local/health
+curl -i http://muchtodo.local:30080/health
 ```
 
 The screenshot confirms:
