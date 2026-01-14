@@ -1,0 +1,86 @@
+# Git
+.git
+**/.git
+
+# OS junk
+.DS_Store
+**/.DS_Store
+
+# Secrets / env
+.env
+**/.env
+
+# Go build/cache artifacts
+**/bin
+**/dist
+**/tmp
+**/*.log
+**/.cache
+
+# Editor folders
+**/.vscode
+**/.idea
+
+# If any node stuff exists
+**/node_modules
+
+mongodb.key
+.git
+.gitignore
+node_modules
+
+# =========================
+# Git + metadata
+# =========================
+.git
+.gitignore
+
+# =========================
+# Secrets / env
+# =========================
+.env
+.env.*
+mongodb.key
+
+# =========================
+# Evidence (not needed to build)
+# =========================
+evidence/
+
+# =========================
+# OS junk
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Editor / IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Go build / cache
+# =========================
+bin/
+dist/
+tmp/
+*.log
+*.out
+*.test
+
+# =========================
+# Kubernetes manifests not needed for building image
+# =========================
+kubernetes/
+kind-config.yaml
+scripts/
+
+# =========================
+# Node (if any appears later)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+

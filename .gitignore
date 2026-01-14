@@ -1,0 +1,52 @@
+# =========================
+# Secrets / local env files
+# =========================
+.env
+.env.*
+!.env.example
+mongodb.key
+
+# =========================
+# Evidence screenshots (optional)
+# =========================
+# If your assessor wants evidence in the repo, COMMENT this out.
+# evidence/
+
+# =========================
+# OS junk
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Editor / IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# Go build output / cache
+# =========================
+bin/
+dist/
+tmp/
+*.exe
+*.out
+*.test
+*.log
+
+# Go workspace/cache folders (sometimes appear)
+.gopath/
+.gomodcache/
+
+# =========================
+# Kubernetes local artifacts
+# =========================
+*.kubeconfig
+
+# =========================
+# Docker local artifacts
+# =========================
+**/*~ 
+
