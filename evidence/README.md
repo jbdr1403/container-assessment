@@ -2,7 +2,7 @@
 
 This folder contains **verifiable evidence** demonstrating the successful build, deployment, and exposure of the MuchTodo application using **Docker**, **Docker Compose**, and **Kubernetes (Kind)**.
 
-Each screenshot corresponds directly to a step described in the main `README.md` and proves that the system is running correctly at each phase.
+Each screenshot corresponds directly to the step described in the main `README.md` and proves that the system is running correctly at each phase.
 
 ---
 
